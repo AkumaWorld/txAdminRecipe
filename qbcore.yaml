@@ -154,7 +154,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
+    src: https://github.com/AkumaWorld/qb-multicharacter
 
   - action: waste_time # prevent github throttling
     seconds: 10
