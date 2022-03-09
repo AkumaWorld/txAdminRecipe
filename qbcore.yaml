@@ -485,6 +485,15 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
+## This is adding stuff 
+  - action: download_github
+    dest: ./resources/[standalone]/qb-target
+    ref: main
+    src: https://github.com/AkumaWorld/qb-target
+
   # Clean up
   - action: remove_path
     path: ./tmp
